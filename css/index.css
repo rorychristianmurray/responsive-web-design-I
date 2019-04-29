@@ -97,6 +97,14 @@ h1, h2, h3, h4, h5 {
     .top {
         display: flex;
         flex-direction: column;
+
+    }
+
+    .top-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
 }
@@ -122,8 +130,38 @@ h1, h2, h3, h4, h5 {
         vertical-align: middle;
         font-size: 1.5em;
         line-height: 2.5em;
-   
     }
+
+    .mid-top-all {
+        display: flex;
+        flex-direction: column;
+        margin: 0 10px
+    }
+
+    .mid-top-left {
+        margin-bottom: 1.5em;
+    }
+
+    .mid-bot-all {
+        display: flex;
+        flex-direction: column;
+        margin: 0 10px
+    }
+
+    .mid-bot-left {
+        margin-bottom: 1.5em;
+    }
+
+    .mid-bot-mid {
+        margin-bottom: 1.5em;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        margin: 0 10px
+    }
+
 
 
 }
@@ -166,7 +204,7 @@ body {
 	border-bottom: 1px solid black;
 	justify-content: space-between;
     padding-top: 25px;
-    border: 1px solid red;
+
 
 }
 
@@ -177,7 +215,7 @@ body {
 }
 
 .innoheader {
-	margin-left: 70px;
+
 	
 }
 
