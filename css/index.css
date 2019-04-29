@@ -67,21 +67,49 @@ h1, h2, h3, h4, h5 {
 
 /* Media queries */
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
+    body {
+        /* background-color: green; */
+    }
+
+    .header {
+        /* background-color: grey; */
+        display: flex;
+        /* flex-direction: column-reverse; */
+        /* align-items: center; */
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .navbar{
+        order: 10;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .logo {
+        order: 0;
+        width: 20%;
+        margin: auto 40%;
+    }
+
+    #top-right-img {
+        display: none;
+    }
+
+    .top {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
     body {
         background-color: green;
     }
 
-    .header {
-        background-color: grey;
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
 
-    .logo {
-        width: 20%;
-    }
 }
 
 
